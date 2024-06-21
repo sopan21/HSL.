@@ -1,0 +1,9 @@
+<?php
+
+include 'connect.html';
+
+setcookie('admin_id', '', time() - 1, '/');
+
+header('location:../admin/login.html');
+
+?>
